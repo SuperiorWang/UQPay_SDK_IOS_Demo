@@ -20,7 +20,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.api = [[UQPayApi alloc]initWithModel:TEST];
-    self.tokenLabel.text = @"869438959310650838400";
+    self.tokenLabel.text = @"599247095646075827701";
 }
 
 - (IBAction)action:(id)sender {

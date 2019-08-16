@@ -547,6 +547,7 @@
 				MODULEMAP_FILE = "Target Support Files/UQPAYSDK/UQPAYSDK.modulemap";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
+					"-ObjC",
 					"-l\"PaymentControl\"",
 					"-l\"c++\"",
 					"-l\"z\"",
@@ -562,7 +563,6 @@
 					"\"SystemConfiguration\"",
 					"-framework",
 					"\"UIKit\"",
-					"-ObjC",
 				);
 				PRODUCT_MODULE_NAME = UQPAYSDK;
 				PRODUCT_NAME = UQPAYSDK;
@@ -640,6 +640,7 @@
 				MODULEMAP_FILE = "Target Support Files/UQPAYSDK/UQPAYSDK.modulemap";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
+					"-ObjC",
 					"-l\"PaymentControl\"",
 					"-l\"c++\"",
 					"-l\"z\"",
@@ -655,7 +656,6 @@
 					"\"SystemConfiguration\"",
 					"-framework",
 					"\"UIKit\"",
-					"-ObjC",
 				);
 				PRODUCT_MODULE_NAME = UQPAYSDK;
 				PRODUCT_NAME = UQPAYSDK;
